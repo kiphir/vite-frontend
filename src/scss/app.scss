@@ -1,0 +1,34 @@
+// Normalize - starting styles
+@import 'global/normalize';
+
+// ROOT
+@import 'global/root';
+
+// Global
+@import 'global/fonts';
+@import 'global/basic';
+
+* {
+  font-family: $font-CoFo;
+}
+
+body {
+  background-size: 100vw 100vw;
+  background-repeat: no-repeat;
+}
+
+main {
+  //
+}
+
+section {
+  //
+}
+
+.container {
+  padding: 60px 40px;
+  backdrop-filter: blur(20px);
+}
+a {
+  color: #2727a1;
+}

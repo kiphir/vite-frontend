@@ -1,0 +1,21 @@
+/*
+** Styles
+ */
+$color-white: #ffffff;
+
+/*
+** Media
+*/
+$media-mobile: 'max-width: 550px';
+$media-mobile-revert: 'min-width: 551px';
+$media-tablet: 'max-width: 767px';
+$media-tablet-revert: 'min-width: 768px';
+$media-desktop: 'max-width: 1280px';
+$media-desktop-revert: 'min-width: 1281px';
+$media-desktop-big: 'max-width: 1920px';
+$media-desktop-revert-big: 'min-width: 1921px';
+
+/*
+** Fonts
+*/
+$font-CoFo: CoFo, sans-serif;

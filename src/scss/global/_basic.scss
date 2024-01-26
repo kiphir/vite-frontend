@@ -1,0 +1,52 @@
+/**
+ * Body & html - Blocked styles
+ */
+html._scroll-blocker {
+    overflow: hidden;
+    position: relative;
+
+    body {
+        overflow: hidden;
+        position: relative;
+    }
+}
+
+body {
+    &._scroll-blocker {
+        overflow: hidden !important;
+    }
+
+    &._scroll-blocker_mobile {
+        //@media ($media-tablet) {
+        //    overflow: hidden !important;
+        //}
+    }
+}
+
+/**
+ * Body default style
+ */
+body {
+    color: var(--color-text-base);
+    background: var(--color-bg-base);
+    //font-family: 123;
+}
+
+/**
+ * Anchors
+ */
+.anchor {
+    position: absolute;
+    top: var(--header-height-anchor);
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+}
+
+/**
+  * Container
+ */
+.container {
+    @include container();
+}

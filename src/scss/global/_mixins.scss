@@ -1,0 +1,22 @@
+//
+// Container template
+//
+@mixin container() {
+	max-width: 1280px;
+	width: 100%;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+//
+// Connecting fonts
+//
+@mixin font($font_name, $file_name, $font_display, $weight, $style) {
+	@font-face {
+		font-family: $font_name;
+        src: url('@/fonts/#{$font_name}/#{$file_name}.woff2') format('woff2'), url('@/fonts/#{$font_name}/#{$file_name}.eot') format('eot');
+		font-display: $font_display;
+		font-weight: #{$weight};
+		font-style: #{$style};
+	}
+}

@@ -1,0 +1,9 @@
+// CoFo
+@include font('CoFo', 'CoFoSans-Thin', fallback, '100', 'normal');
+@include font('CoFo', 'CoFoSans-Light', fallback, '300', 'normal');
+@include font('CoFo', 'CoFoSans-Regular', fallback, '400', 'normal');
+@include font('CoFo', 'CoFoSans_Variable', fallback, '480', 'normal'); // Variable
+@include font('CoFo', 'CoFoSans_Variable', fallback, '450', 'normal'); // Variable
+@include font('CoFo', 'CoFoSans-Medium', fallback, '500', 'normal');
+@include font('CoFo', 'CoFoSans-Bold', fallback, '700', 'normal');
+@include font('CoFo', 'CoFoSans-Black', fallback, '900', 'normal');

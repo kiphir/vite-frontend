@@ -1,0 +1,10 @@
+:root {
+  --color-text-base: #262626;
+  --color-bg-base: #78787851;
+  --color-theme: '';
+
+  //
+  --header-banner-height: 0px;
+  --header-height: var(--header-banner-height);
+  --header-height-anchor: var(--header-banner-height);
+}

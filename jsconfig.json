@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "#/*": ["./src/*"],
+            "#js/*": ["./src/js/*"],
+            "#scss/*": ["./src/scss/*"],
+            "#vue/*": ["./src/vue/*"]
+        }
+    }
+}
